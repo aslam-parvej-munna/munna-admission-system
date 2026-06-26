@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Admin Dashboard | Munna ICT Care</title>
+
+<link rel="stylesheet" href="css/admin.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="sidebar">
+
+<div class="logo">
+
+<h2>Munna ICT Care</h2>
+
+<p>Admin Panel</p>
+
+</div>
+
+<ul>
+
+<li><a href="#"><i class="fa fa-gauge"></i> Dashboard</a></li>
+
+<li><a href="#"><i class="fa fa-users"></i> Students</a></li>
+
+<li><a href="#"><i class="fa fa-book"></i> Courses</a></li>
+
+<li><a href="#"><i class="fa fa-bell"></i> Notice</a></li>
+
+<li><a href="#"><i class="fa fa-gear"></i> Settings</a></li>
+
+<li><a href="index.html"><i class="fa fa-home"></i> Website</a></li>
+
+</ul>
+
+</div>
+
+<div class="main">
+
+<header>
+
+<h1>Admin Dashboard</h1>
+
+<div class="admin">
+
+<i class="fa fa-user-circle"></i>
+
+<span>Administrator</span>
+
+</div>
+
+</header>
+
+<div class="cards">
+
+<div class="card">
+
+<h2 id="totalStudents">0</h2>
+
+<p>Total Students</p>
+
+</div>
+
+<div class="card">
+
+<h2 id="todayAdmission">0</h2>
+
+<p>Today's Admission</p>
+
+</div>
+
+<div class="card">
+
+<h2 id="courseCount">0</h2>
+
+<p>Total Courses</p>
+
+</div>
+
+<div class="card">
+
+<h2 id="pendingCount">0</h2>
+
+<p>Pending Review</p>
+
+</div>
+
+</div>
+
+<div class="table-section">
+
+<h2>Student List</h2>
+
+<input
+type="text"
+id="search"
+placeholder="Search Student...">
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>SL</th>
+
+<th>Name</th>
+
+<th>Mobile</th>
+
+<th>Course</th>
+
+<th>Date</th>
+
+<th>Action</th>
+
+</tr>
+
+</thead>
+
+<tbody id="studentTable">
+
+<!-- Firebase Data -->
+
+</tbody>
+
+</table>
+
+</div>
+
+</div>
+
+<script type="module" src="js/admin.js"></script>
+
+</body>
+
+</html>
