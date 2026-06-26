@@ -1,0 +1,328 @@
+/* ===========================
+   MUNNA ICT CARE
+   Professional Style Sheet
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f5f7fb;
+    color:#222;
+    line-height:1.7;
+}
+
+a{
+    text-decoration:none;
+}
+
+ul{
+    list-style:none;
+}
+
+img{
+    max-width:100%;
+    display:block;
+}
+
+/*==========================
+ HEADER
+==========================*/
+
+header{
+    width:100%;
+    background:linear-gradient(135deg,#0d47a1,#1565c0,#1b5e20);
+    color:#fff;
+    min-height:100vh;
+}
+
+/*==========================
+ NAVBAR
+==========================*/
+
+.navbar{
+
+    width:90%;
+    margin:auto;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:20px 0;
+}
+
+.logo{
+
+display:flex;
+
+align-items:center;
+
+gap:10px;
+
+}
+
+.logo img{
+
+width:70px;
+
+height:70px;
+
+border-radius:50%;
+
+background:white;
+
+padding:5px;
+
+}
+
+.logo h2{
+
+font-size:30px;
+
+font-weight:700;
+
+color:white;
+
+}
+
+.menu{
+
+display:flex;
+
+gap:30px;
+
+}
+
+.menu a{
+
+color:white;
+
+font-weight:500;
+
+transition:.4s;
+
+}
+
+.menu a:hover{
+
+color:#00e676;
+
+}
+
+.btn{
+
+background:#00c853;
+
+color:white;
+
+padding:12px 30px;
+
+border-radius:50px;
+
+font-weight:bold;
+
+transition:.4s;
+
+}
+
+.btn:hover{
+
+background:white;
+
+color:#0d47a1;
+
+}
+
+/*==========================
+ HERO
+==========================*/
+
+.hero{
+
+width:90%;
+
+margin:auto;
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+align-items:center;
+
+min-height:80vh;
+
+gap:50px;
+
+}
+
+.hero h1{
+
+font-size:55px;
+
+margin-bottom:20px;
+
+line-height:1.2;
+
+}
+
+.hero p{
+
+font-size:20px;
+
+margin-bottom:30px;
+
+}
+
+.hero-btn{
+
+display:inline-block;
+
+padding:15px 40px;
+
+background:#00e676;
+
+color:white;
+
+border-radius:40px;
+
+font-size:18px;
+
+font-weight:bold;
+
+transition:.4s;
+
+}
+
+.hero-btn:hover{
+
+background:white;
+
+color:#0d47a1;
+
+transform:translateY(-5px);
+
+}
+
+.hero-image img{
+
+width:100%;
+
+animation:float 3s ease-in-out infinite;
+
+}
+
+@keyframes float{
+
+0%{
+
+transform:translateY(0);
+
+}
+
+50%{
+
+transform:translateY(-15px);
+
+}
+
+100%{
+
+transform:translateY(0);
+
+}
+
+}
+
+/*==========================
+ SECTION
+==========================*/
+
+section{
+
+padding:80px 10%;
+
+}
+
+.section-title{
+
+text-align:center;
+
+font-size:40px;
+
+margin-bottom:50px;
+
+color:#0d47a1;
+
+font-weight:700;
+
+}
+
+/*==========================
+ COURSE CARD
+==========================*/
+
+.course-container{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+gap:30px;
+
+}
+
+.course{
+
+background:white;
+
+border-radius:15px;
+
+padding:30px;
+
+text-align:center;
+
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+transition:.4s;
+
+}
+
+.course:hover{
+
+transform:translateY(-10px);
+
+}
+
+.course i{
+
+font-size:60px;
+
+color:#1565c0;
+
+margin-bottom:20px;
+
+}
+
+.course h3{
+
+margin-bottom:15px;
+
+color:#1b5e20;
+
+}
+
+.course p{
+
+font-size:15px;
+
+color:#666;
+
+}
